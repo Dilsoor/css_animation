@@ -1,0 +1,22 @@
+.anima {
+    width: 70px;
+    height: 43px;
+    background-color: rgb(14, 223, 14);
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes example {
+    0%   {background-color: rgb(14, 223, 14); color: white; left: 0px; top: 0px; transform: rotate(20deg);}
+    20%  {background-color: rgb(107, 245, 203); color: white; left: 0px; top: 0px; transform: rotate(20deg);}
+    40%  {background-color: rgb(12, 218, 245); color: white; left: 400px; top: 0px; transform: rotate(20deg);}
+    50%  {background-color: rgb(12, 218, 245); color: white ; left: 400px; top: 0px;transform: rotate(20deg); }
+    100% {background-color: rgb(14, 223, 14); color: white; left: 0px; top: 0px; transform: rotate(-360deg);}
+}
